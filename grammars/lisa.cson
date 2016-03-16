@@ -1,0 +1,22 @@
+'scopeName': 'source.lisa'
+'fileTypes': [
+  'lisa'
+]
+'firstLineMatch': '-\\*-\\s*([Mm]ode: )?C\\+\\+;?\\s*-\\*-'
+'name': 'LISA+'
+'patterns':[
+  {
+    'include': '#special_block'
+  }
+  {
+    'include': 'source.cpp'
+  }
+  {
+    'match': '\\b(master|slave|peer)\\b'
+    'name': 'variable.lisa'
+  }
+  {
+    'match': '\\b(component|resources|properties|composition|behaviour|behavior|debug|includes|connection)\\b'
+    'name': 'keyword.other.unit.lisa'
+  }
+]

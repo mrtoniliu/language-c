@@ -1,21 +1,9 @@
 {
-  "version": "0.51.1",
-  "name": "language-c",
-  "description": "Atom language support for C/C++",
-  "homepage": "https://atom.github.io/language-c",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/atom/language-c.git"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/atom/language-c/issues"
-  },
+  "version": "0.1.0",
+  "name": "language-lisa",
+  "description": "Atom language support for LISA+",
   "engines": {
     "atom": "*",
     "node": "*"
-  },
-  "devDependencies": {
-    "coffeelint": "^1.10.1"
   }
 }
