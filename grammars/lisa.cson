@@ -19,4 +19,8 @@
     'match': '\\b(component|resources|properties|composition|behaviour|behavior|debug|includes|connection)\\b'
     'name': 'keyword.other.unit.lisa'
   }
+  {
+    'match' : '\\b(PARAMETER|REGISTER|MEMORY)\\b'
+    'name' : 'storage.lisa'
+  }
 ]
