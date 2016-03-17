@@ -23,4 +23,8 @@
     'match' : '\\b(PARAMETER|REGISTER|MEMORY)\\b'
     'name' : 'storage.lisa'
   }
+  {
+    'match' : '\\b(MSG_FATAL_ERROR|MSG_ERROR|MSG_WARNING|MSG_INFO|MSG_DEBUG)\\b'
+    'name' : 'constant.message.lisa'
+  }
 ]
